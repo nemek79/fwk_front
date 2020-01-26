@@ -3,5 +3,11 @@
 </h1>
 
 <div class="alert alert-primary" role="alert">
+  <fa-icon [icon]="faCoffee"></fa-icon>
   A simple primary alert—check it out!
 </div>
+<button pButton type="button" label="Click"></button>
+
+<p-dropdown [options]="cities" [(ngModel)]="selectedCity" placeholder="Select a City" optionLabel="name" [showClear]="true"></p-dropdown>
+<p>Selected City: {{selectedCity ? selectedCity.name : 'none'}}</p>
+
