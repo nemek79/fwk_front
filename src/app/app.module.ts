@@ -12,6 +12,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng';
 import {DropdownModule} from 'primeng/dropdown';
+import {PasswordModule} from 'primeng/password';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {DropdownModule} from 'primeng/dropdown';
     BrowserAnimationsModule,
     FontAwesomeModule,
     ButtonModule,
-    DropdownModule
+    DropdownModule,
+    PasswordModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
